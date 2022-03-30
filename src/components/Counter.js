@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const Counter = () => {
   const [count, setCount] = useState(0);
 
+  // setCount allows us to pass an arrow function
   const incrementCount = () => {
     setCount(previousCount =>
       previousCount + 1
@@ -20,9 +21,10 @@ const Counter = () => {
 
   return (
     <div className="container-counter">
+      <h2>Rooms Counter</h2>
       <p>{count}</p>
       <div className='buttons'>
-        <button className="btn" onClick={decrementCount}>
+        <button className="btn" onClick={decrementCount}> {/* JSX : pass function as event */}
           -
         </button>
         <button className="btn" onClick={incrementCount}>

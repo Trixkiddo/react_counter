@@ -1,8 +1,7 @@
 
 .App {
   width: 500px;
-  height: 500px;
-
+  margin-top: 50%
 }
 
 .container-counter {
@@ -10,7 +9,8 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(202, 171, 171);
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px gray;
   padding: 40px;
 }
 
@@ -18,4 +18,5 @@ body {
   width: 800px;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }

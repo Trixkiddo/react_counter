@@ -472,7 +472,7 @@ button.btn {
 
 .App {
   width: 500px;
-  height: 500px;
+  margin-top: 50%;
 }
 
 .container-counter {
@@ -487,7 +487,9 @@ button.btn {
       -ms-flex-align: center;
           align-items: center;
   background-color: #caabab;
-  border-radius: 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 4px gray;
+          box-shadow: 4px 4px 4px gray;
   padding: 40px;
 }
 
@@ -499,5 +501,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=main.css.map */
